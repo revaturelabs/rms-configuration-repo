@@ -1,6 +1,13 @@
 server:
   port: 10002
 
+spring:
+  data:
+    mongodb:
+      database: rms-employees
+      host: localhost
+      port: 27017
+
 eureka:
   client:
     enabled: true
